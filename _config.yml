@@ -18,23 +18,24 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Colección Patrimonial La Voz
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Periodico chileno del siglo XX
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "La revista La Voz es la memoria de una época entera y ahora está disponible en la Biblioteca de Humanidades gracias a una colección de cuatro tomos empastados y 34 ejemplares sueltos, donados por el periodista y ex profesor de la UC, Abraham Santibáñez. La Voz surgió en 1953 como un medio quincenal del Arzobispado de Santiago, transformándose con el tiempo en un semanario que perduró hasta 1964. A pesar de su origen eclesiástico, la revista fue realizada por un grupo de destacados profesionales como Abraham Santibáñez, Alejandro Magnet y Gastón Cruzat.Esta colección digital permite poner a disposición del público en general una valiosa fuente de información sobre hechos históricos y sociales de la época. Se enfoca en destacar aquellos artículos escritos por autores reconocidos, preservando la historia y honrando la labor de estos profesionales"
+
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: idaho; history; inland northwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Adolfo Marinellouilder
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-compoundobjects-metadata 
+metadata: metadatos_la_voz
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
