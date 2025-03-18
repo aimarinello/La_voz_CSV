@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
+url: https://aimarinello.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: 
+baseurl: /La_voz_CSV
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 
@@ -28,7 +28,7 @@ description: "La revista La Voz es la memoria de una época entera y ahora está
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: idaho; history; inland northwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Adolfo Marinellouilder
+author: Adolfo Marinello
 
 ##########
 # COLLECTION SETTINGS
