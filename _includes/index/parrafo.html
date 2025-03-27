@@ -1,0 +1,18 @@
+<div class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Sobre nuestras colecciones</h5>
+    <p class="card-text">"A continuación, se presentarán dos secciones donde se podrá encontrar una colección de dos columnas del periódico La Voz que consideramos de particular importancia. Estas secciones destacan artículos escritos por autores reconocidos, preservando la historia y honrando la labor de los profesionales que contribuyeron a esta valiosa fuente de información histórica y social."</p>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Rincon de Amaya </h5>
+    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}
+    {% if about > 0 %}<a class="btn btn-outline-primary" href="https://aimarinello.github.io/La-voz-respaldo/browse.html#reformas%20constitucionales" > Navega la colección &raquo;</a>{% endif %}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Segunda colección</h5>
+    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}
+    {% if about > 0 %}<a class="btn btn-outline-primary" href="https://aimarinello.github.io/La-voz-respaldo/browse.html#sociedad" >Navega la colección&raquo;</a>{% endif %}
+  </div>
+</div>
