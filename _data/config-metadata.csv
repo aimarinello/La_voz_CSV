@@ -7,8 +7,8 @@ subject,Temas,true
 location,Ubicación
 latitude,Latitude
 longitude,Longitude
-source,Source
-identifier,Cádigo de identificación,,
+source,Fuente
+identifier,Código de identificación,,
 type,Tipo,
 format,Formato,
 rights,Derechos,

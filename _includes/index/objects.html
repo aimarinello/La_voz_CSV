@@ -27,7 +27,7 @@
 {%- assign types = templates | uniq | compact | sort -%}
 <div class="card mb-3" >
     <div class="card-body">
-        <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Objects</{{ include.heading_level | default: 'h2' | strip }}>
+        <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Objetos</{{ include.heading_level | default: 'h2' | strip }}>
         <p class="card-text">
         {% for t in types %}
         {%- assign count = templates | where_exp: 'item', 'item contains t' | size -%}
@@ -41,7 +41,7 @@
         {{ others }} OTHER {% include helpers/get-icon-svg.html type="hidden" %}<br>{% endif %}{% endif %}
         {% if include.total == true %}
         {{ templates | size }} TOTAL ITEMS<br>{% endif %}
-        <a class="btn btn-sm btn-{{ include.btn-color | default: 'outline-secondary' }} mt-2" href="{{ '/data.html' | relative_url }}">View table</a>
+        <a class="btn btn-sm btn-{{ include.btn-color | default: 'outline-secondary' }} mt-2" href="{{ '/data.html' | relative_url }}">Ver Tabla</a>
         </p>
     </div>
 </div>
