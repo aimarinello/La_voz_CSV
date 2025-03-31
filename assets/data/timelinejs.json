@@ -32,7 +32,9 @@
           "year": "{{ item.date }}"{% endif %}
         },
         "text": {
-          "headline": {{ item.title | jsonify }}{% if item.description %},
+          "headline": {{ item.title | jsonify }}{% if item.creator %},
+          "credit": {{ item.creator | jsonify }}{% endif %}
+          {% if item.description %},
           "text": {{ item.description | jsonify }}{% endif %}
         }
       }{% unless forloop.last %},{% endunless %}{% endfor %}
